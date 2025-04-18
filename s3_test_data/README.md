@@ -2,7 +2,7 @@
 
 This stack is used to store and retrieve test data for GitHub actions in an S3 bucket, and invalidates the GitHub actions cache when new data is uploaded. When new test data is uploaded, the old data is deleted permanently.
 
-Data is always placed in the download bucket as `test_data.tar.gz`. The cache invalidation routine assumes the data is cached as `test-data`. You can see an example of a setup in the CI for [this repo](https://github.com/ArgoneCPAC/OpenCosmo).
+Data is always placed in the download bucket as `test_data.tar.gz`. The cache invalidation routine assumes the data is cached as `test-data`. You can see an example of a setup in the CI for [this repo](https://github.com/ArgonneCPAC/OpenCosmo).
 
 Its input parameters are:
 
