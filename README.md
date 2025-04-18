@@ -9,7 +9,7 @@ All utilities are written using the AWS Cloud Development Kit to be deployed wit
 
 Current utilities:
 
-- [S3 Test Data](tree/main/s3_test_data): Store test data for Github Actions in S3, with replacement and cache invalidation.
+- [S3 Test Data](s3_test_data): Store test data for Github Actions in S3, with replacement and cache invalidation.
 
 
 
