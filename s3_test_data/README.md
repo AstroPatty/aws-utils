@@ -10,7 +10,7 @@ Its input parameters are:
 - **ghRepoName**: The name of the repository
 - **ghAcessToken**: A GitHub access token. The token must have read/write priveliges for Actions in the given repository.
 
-The output parameters are.
+The output parameters are:
 
 - **upload-bucket-name**: The name of the bucket to upload new test data to
 - **upload-bucket-access-key**: An access key for a new user with put rights to the upload bucket
